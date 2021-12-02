@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 function User() {
+    // eslint-disable-next-line no-unused-vars
     const [users, setUsers] = useState({
         email :'',
         password: ''
